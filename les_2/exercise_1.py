@@ -1,0 +1,11 @@
+# Practice Exercises les 2
+# 2_1 (input & eval)
+print('------------------------------------------------------------------------')
+print('--------------------- Exercise 2_1 (input & eval) ----------------------')
+print('------------- Nick Bout - 1709217 - V1Q - Programming - HU -------------')
+print('------------------------------------------------------------------------')
+money = input('Wat verdien je per uur: ')
+hours = input('Hoeveel uur heb je gewerkt: ')
+total = float(money) * int(hours)
+print(hours + ' uur werken levert', total, 'Euro op')
+print()
